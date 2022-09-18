@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nectar/screens/welcome_screen.dart';
+import 'package:nectar/screens/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         primaryColor: const Color(0xFF53B175),
       ),
-      home: const WelcomeScreen(),
+      debugShowCheckedModeBanner: false,
+      home: const SplashScreen(),
     );
   }
 }

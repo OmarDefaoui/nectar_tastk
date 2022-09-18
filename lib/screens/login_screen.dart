@@ -46,10 +46,13 @@ class _LoginScreenState extends State<LoginScreen> {
                       decoration: InputDecoration(
                         prefixIcon: Row(
                           children: [
-                            Image.asset(
-                              'assets/images/flag.png',
-                              height: 20,
-                              width: 30,
+                            ClipRRect(
+                              borderRadius: BorderRadius.circular(4),
+                              child: Image.asset(
+                                'assets/images/flag.png',
+                                height: 20,
+                                width: 30,
+                              ),
                             ),
                             const SizedBox(width: 10),
                             const Text(
