@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nectar/posts/screens/posts_screen.dart';
+import 'package:nectar/choose_project_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         primaryColor: const Color(0xFF53B175),
       ),
       debugShowCheckedModeBanner: false,
-      home: const PostsScreen(),
+      home: const ChooseProjectScreen(),
     );
   }
 }
