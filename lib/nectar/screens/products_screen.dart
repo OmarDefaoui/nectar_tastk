@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nectar/models/product_model.dart';
+import '../models/product_model.dart';
 
 class ProductsScreen extends StatefulWidget {
   const ProductsScreen({Key? key}) : super(key: key);

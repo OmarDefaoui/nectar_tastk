@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:nectar/screens/products_screen.dart';
+
+import '../screens/products_screen.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);
